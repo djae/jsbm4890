@@ -1,3 +1,5 @@
+console.log([] + 'str'); // str пустой массив всегда string
+console.log([] + false - null); //str - null xz(not namber)
 console.log([] + false - null + true ); // NaN
 
 let y = 1; 
