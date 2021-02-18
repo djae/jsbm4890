@@ -14,3 +14,8 @@ console.log(typeof(id)); //symbol - 7
 
 // dop
 console.log(Number.isNaN(true)); //NaN - Not-A-Number
+
+
+if (function f(){}) {
+    alert(typeof f);
+  }
